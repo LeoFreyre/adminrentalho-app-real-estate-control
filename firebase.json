@@ -1,0 +1,41 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "adminrentalho",
+          "appId": "1:348015334573:android:dd87d88423da1d8bb7e224",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "adminrentalho",
+          "appId": "1:348015334573:ios:c28ba1da86a6b4c3b7e224",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "adminrentalho",
+          "configurations": {
+            "android": "1:348015334573:android:dd87d88423da1d8bb7e224",
+            "ios": "1:348015334573:ios:c28ba1da86a6b4c3b7e224",
+            "web": "1:348015334573:web:68517550e1eceadbb7e224"
+          }
+        }
+      }
+    }
+  }
+}
