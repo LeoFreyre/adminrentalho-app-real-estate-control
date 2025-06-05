@@ -148,6 +148,9 @@ CLOUDINARY_UPLOAD_PRESET=your_upload_preset
 
 *[Support for iOS 15+/Android 10+ – Timezone: Asia/Dubai configured by default]*
 
+##
+>[!NOTE]
+> This project was created for learning purposes and may contain errors.
 
 ## 🌐 Live
 Visit the web of the project: https://suite-adminrentalho.web.app
